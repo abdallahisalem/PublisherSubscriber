@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+subscriber/node_modules
+subscriber/.pnp
+subscriber/.pnp.js
+
+# testing
+subscriber/coverage
+
+# production
+subscriber/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+subscriber/npm-debug.log*
+subscriber/yarn-debug.log*
+subscriber/yarn-error.log*
+
+
+publisher/target/
+publisher/pom.xml.tag
+publisher/pom.xml.releaseBackup
+publisher/pom.xml.versionsBackup
+publisher/pom.xml.next
+publisher/release.properties
+publisher/dependency-reduced-pom.xml
+publisher/buildNumber.properties
+publisher/.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+publisher/.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
