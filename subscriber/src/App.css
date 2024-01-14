@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.temperature-header {
+  font-size: 2em; /* You can adjust the font size as needed for the header */
+}
+
+.large-temperature {
+  font-size: 10em; /* Adjust the font size to make it very large */
+  margin: 0; /* Remove default margin to ensure it takes up more space */
+  line-height: 1; /* Set line-height to 1 for better control over vertical spacing */
+  text-align: center; /* Center the text horizontally */
+  height: 90vh; /* Set the height to 90% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optionally, you can add a background color to make the text more noticeable */
+.large-temperature {
+  background-color: #f0f0f0; /* Adjust the color as needed */
+  color: #333; /* Adjust the color for better contrast */
+}

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MqttComponent from './MqttComponent';
 import { useState } from 'react';
@@ -12,8 +11,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Current Temperature</h1>
-      <h1>{temperature}</h1>°C
+      <h1 className="temperature-header">Current Temperature</h1>
+      <h1 className="large-temperature">{temperature}°C</h1>
       <MqttComponent updateTemperature={updateTemperature} />
     </div>
   );
